@@ -11,10 +11,8 @@
 
 
 
-  
 
-
-<html class="theme-next pisces use-motion" lang>
+<html class="theme-next gemini" lang>
 <head><meta name="generator" content="Hexo 3.9.0">
   <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -25,9 +23,6 @@
 
 
 
-
-  <meta http-equiv="Cache-Control" content="no-transform">
-  <meta http-equiv="Cache-Control" content="no-siteapp">
 
 
 
@@ -71,16 +66,16 @@
   var NexT = window.NexT || {};
   var CONFIG = {
     root: '/',
-    scheme: 'Pisces',
+    scheme: 'Gemini',
     version: '7.1.2',
     sidebar: {"position":"left","display":"post","offset":12,"onmobile":false,"dimmer":false},
-    back2top: true,
-    back2top_sidebar: false,
+    back2top: false,
+    back2top_sidebar: true,
     fancybox: false,
     fastclick: false,
     lazyload: false,
     tabs: true,
-    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    motion: {"enable":false,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
     algolia: {
       applicationID: '',
       apiKey: '',
@@ -103,7 +98,7 @@
 <meta property="og:url" content="http://yoursite.com/2019/06/25/diyipian/index.html">
 <meta property="og:site_name" content="XiaoWei3209">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2019-06-25T08:48:08.828Z">
+<meta property="og:updated_time" content="2019-06-25T12:28:50.678Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="diyipian">
 
@@ -223,6 +218,8 @@
     
 
     
+      
+    
 
     <a href="/" rel="section"><i class="menu-item-icon fa fa-fw fa-home"></i> <br>Startseite</a>
 
@@ -238,6 +235,8 @@
       
     
 
+    
+      
     
 
     <a href="/about/" rel="section"><i class="menu-item-icon fa fa-fw fa-user"></i> <br>Über</a>
@@ -255,8 +254,10 @@
     
 
     
+      
+    
 
-    <a href="/tags/" rel="section"><i class="menu-item-icon fa fa-fw fa-tags"></i> <br>Schlagwörter</a>
+    <a href="/tags/" rel="section"><i class="menu-item-icon fa fa-fw fa-tags"></i> <br>Schlagwörter<span class="badge">1</span></a>
 
   </li>
         
@@ -271,8 +272,10 @@
     
 
     
+      
+    
 
-    <a href="/categories/" rel="section"><i class="menu-item-icon fa fa-fw fa-th"></i> <br>Kategorien</a>
+    <a href="/categories/" rel="section"><i class="menu-item-icon fa fa-fw fa-th"></i> <br>Kategorien<span class="badge">0</span></a>
 
   </li>
         
@@ -287,8 +290,10 @@
     
 
     
+      
+    
 
-    <a href="/archives/" rel="section"><i class="menu-item-icon fa fa-fw fa-archive"></i> <br>Archiv</a>
+    <a href="/archives/" rel="section"><i class="menu-item-icon fa fa-fw fa-archive"></i> <br>Archiv<span class="badge">3</span></a>
 
   </li>
         
@@ -302,6 +307,8 @@
       
     
 
+    
+      
     
 
     <a href="/DevelopmentNotes/" rel="section"><i class="menu-item-icon fa fa-fw fa-开发笔记"></i> <br>DevelopmentNotes</a>
@@ -428,7 +435,7 @@
                 
               
 
-              <time title="Erstellt: 2019-06-25 16:41:36 / Geändert am: 16:48:08" itemprop="dateCreated datePublished" datetime="2019-06-25T16:41:36+08:00">2019-06-25</time>
+              <time title="Erstellt: 2019-06-25 16:41:00 / Geändert am: 20:28:50" itemprop="dateCreated datePublished" datetime="2019-06-25T16:41:00+08:00">2019-06-25</time>
             
 
             
@@ -472,16 +479,59 @@
     </div>
 
     
+      
+
+
+    
 
     
     
     
+
+    
+      <div id="wechat_subscriber" style="display: block; padding: 10px 0; margin: 20px auto; width: 100%; text-align: center;">
+  <img id="wechat_subscriber_qcode" src="/uploads/wechat-qcode.jpg" alt="XiaoWei3209 wechat" style="width: 200px; max-width: 100%;">
+  <div>喜欢我就可以加我哦！</div>
+</div>
 
     
 
     
       
     
+    
+      <div>
+        <div id="reward-container">
+  <div>如果对你有帮助，那就打赏吧！</div>
+  <button id="reward-button" disable="enable" onclick="var qr = document.getElementById(&quot;qr&quot;); qr.style.display = (qr.style.display === 'none') ? 'block' : 'none';">
+    Spenden
+  </button>
+  <div id="qr" style="display: none;">
+
+    
+      
+      
+        
+      
+      <div style="display: inline-block">
+        <img src="/images/wechatpay.png" alt="XiaoWei3209 WeChat Bezahlung">
+        <p>WeChat Bezahlung</p>
+      </div>
+    
+      
+      
+        
+      
+      <div style="display: inline-block">
+        <img src="/images/alipay.png" alt="XiaoWei3209 Alipay">
+        <p>Alipay</p>
+      </div>
+    
+
+  </div>
+</div>
+
+      </div>
     
 
     
@@ -517,7 +567,7 @@
         
         <div class="post-tags">
           
-            <a href="/tags/测试/" rel="tag"># 测试</a>
+            <a href="/tags/测试/" rel="tag"><i class="fa fa-tag"></i> 测试</a>
           
         </div>
       
@@ -641,6 +691,46 @@
           
 
           
+            <div class="links-of-author motion-element">
+              
+                <span class="links-of-author-item">
+                  
+                  
+                  
+                    
+                  
+                  <a href="https://github.com/yourname" title="GitHub &rarr; https://github.com/yourname" rel="noopener" target="_blank"><i class="fa fa-fw fa-github"></i></a>
+                </span>
+              
+                <span class="links-of-author-item">
+                  
+                  
+                  
+                    
+                  
+                  <a href="mailto:yourname@gmail.com" title="E-Mail &rarr; mailto:yourname@gmail.com" rel="noopener" target="_blank"><i class="fa fa-fw fa-envelope"></i></a>
+                </span>
+              
+                <span class="links-of-author-item">
+                  
+                  
+                  
+                    
+                  
+                  <a href="https://weibo.com/yourname" title="Weibo &rarr; https://weibo.com/yourname" rel="noopener" target="_blank"><i class="fa fa-fw fa-weibo"></i></a>
+                </span>
+              
+                <span class="links-of-author-item">
+                  
+                  
+                  
+                    
+                  
+                  <a href="https://plus.google.com/yourname" title="Google &rarr; https://plus.google.com/yourname" rel="noopener" target="_blank"><i class="fa fa-fw fa-google"></i></a>
+                </span>
+              
+            </div>
+          
 
           
              <div class="cc-license motion-element" itemprop="license">
@@ -655,6 +745,20 @@
           
 
           
+          
+            <div class="links-of-blogroll motion-element links-of-blogroll-block">
+              <div class="links-of-blogroll-title">
+                <i class="fa  fa-fw fa-link"></i>
+                Links
+              </div>
+              <ul class="links-of-blogroll-list">
+                
+                  <li class="links-of-blogroll-item">
+                    <a href="https://me.csdn.net/qq_40962416" title="https://me.csdn.net/qq_40962416" rel="noopener" target="_blank">CSDN</a>
+                  </li>
+                
+              </ul>
+            </div>
           
 
           
@@ -700,7 +804,7 @@
 
 
 
-  <div class="theme-info">Design – <a href="https://theme-next.org" class="theme-link" rel="noopener" target="_blank">NexT.Pisces</a> v7.1.2</div>
+  <div class="theme-info">Design – <a href="https://theme-next.org" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> v7.1.2</div>
 
 
 
@@ -718,11 +822,6 @@
       </div>
     </footer>
 
-    
-      <div class="back-to-top">
-        <i class="fa fa-arrow-up"></i>
-        
-      </div>
     
 
     
@@ -794,6 +893,7 @@
 
 
 
+
   
   <script src="/js/scrollspy.js?v=7.1.2"></script>
 <script src="/js/post-details.js?v=7.1.2"></script>
@@ -807,6 +907,9 @@
 
 
   
+  <script src="/js/js.cookie.js?v=7.1.2"></script>
+  <script src="/js/scroll-cookie.js?v=7.1.2"></script>
+
 
   
 
@@ -1154,16 +1257,6 @@
   
 
   
-  <script>
-    (function(){
-      var bp = document.createElement('script');
-      var curProtocol = window.location.protocol.split(':')[0];
-      bp.src = (curProtocol === 'https') ? 'https://zz.bdstatic.com/linksubmit/push.js' : 'http://push.zhanzhang.baidu.com/push.js';
-      var s = document.getElementsByTagName("script")[0];
-      s.parentNode.insertBefore(bp, s);
-    })();
-  </script>
-
 
   
 

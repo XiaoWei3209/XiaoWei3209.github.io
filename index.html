@@ -11,10 +11,8 @@
 
 
 
-  
 
-
-<html class="theme-next pisces use-motion" lang>
+<html class="theme-next gemini" lang>
 <head><meta name="generator" content="Hexo 3.9.0">
   <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -25,9 +23,6 @@
 
 
 
-
-  <meta http-equiv="Cache-Control" content="no-transform">
-  <meta http-equiv="Cache-Control" content="no-siteapp">
 
 
 
@@ -71,16 +66,16 @@
   var NexT = window.NexT || {};
   var CONFIG = {
     root: '/',
-    scheme: 'Pisces',
+    scheme: 'Gemini',
     version: '7.1.2',
     sidebar: {"position":"left","display":"post","offset":12,"onmobile":false,"dimmer":false},
-    back2top: true,
-    back2top_sidebar: false,
+    back2top: false,
+    back2top_sidebar: true,
     fancybox: false,
     fastclick: false,
     lazyload: false,
     tabs: true,
-    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    motion: {"enable":false,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
     algolia: {
       applicationID: '',
       apiKey: '',
@@ -222,6 +217,8 @@
     
 
     
+      
+    
 
     <a href="/" rel="section"><i class="menu-item-icon fa fa-fw fa-home"></i> <br>Startseite</a>
 
@@ -237,6 +234,8 @@
       
     
 
+    
+      
     
 
     <a href="/about/" rel="section"><i class="menu-item-icon fa fa-fw fa-user"></i> <br>Über</a>
@@ -254,8 +253,10 @@
     
 
     
+      
+    
 
-    <a href="/tags/" rel="section"><i class="menu-item-icon fa fa-fw fa-tags"></i> <br>Schlagwörter</a>
+    <a href="/tags/" rel="section"><i class="menu-item-icon fa fa-fw fa-tags"></i> <br>Schlagwörter<span class="badge">1</span></a>
 
   </li>
         
@@ -270,8 +271,10 @@
     
 
     
+      
+    
 
-    <a href="/categories/" rel="section"><i class="menu-item-icon fa fa-fw fa-th"></i> <br>Kategorien</a>
+    <a href="/categories/" rel="section"><i class="menu-item-icon fa fa-fw fa-th"></i> <br>Kategorien<span class="badge">0</span></a>
 
   </li>
         
@@ -286,8 +289,10 @@
     
 
     
+      
+    
 
-    <a href="/archives/" rel="section"><i class="menu-item-icon fa fa-fw fa-archive"></i> <br>Archiv</a>
+    <a href="/archives/" rel="section"><i class="menu-item-icon fa fa-fw fa-archive"></i> <br>Archiv<span class="badge">3</span></a>
 
   </li>
         
@@ -301,6 +306,8 @@
       
     
 
+    
+      
     
 
     <a href="/DevelopmentNotes/" rel="section"><i class="menu-item-icon fa fa-fw fa-开发笔记"></i> <br>DevelopmentNotes</a>
@@ -429,7 +436,7 @@
                 
               
 
-              <time title="Erstellt: 2019-06-25 17:03:00 / Geändert am: 18:15:04" itemprop="dateCreated datePublished" datetime="2019-06-25T17:03:00+08:00">2019-06-25</time>
+              <time title="Erstellt: 2019-06-25 17:03:00 / Geändert am: 19:50:13" itemprop="dateCreated datePublished" datetime="2019-06-25T17:03:00+08:00">2019-06-25</time>
             
 
             
@@ -469,16 +476,26 @@
 
       
         
-          
-            <p>Hexo-admin<br>主角登场了，前面也有提到过，管理Hexo博客，我所知道的有几种方式。用手动管理的方式未免显得太过于原始人，即便你用本地的Markdown编辑器洋洋洒洒地写完了一篇博客，还是得屁颠屁颠地连接到服务器，然后将文件上传到博客服务器，再然后谄媚地告诉服务器，乖，帮我执行一下hexo g，命令执行完，静态页面生成后一篇博客才叫告一段落。<br>也许你不嫌麻烦，觉得这样也挺好的，没那么多屁事儿折腾，那么就坚持自己的做法也未尝不可。<br>但是，如果你跟我一样嫌(tai)麻(lan)烦(le)的话，那么利用Hexo-admin插件，加上自己部分diy，也许一个自己比较满意的Hexo博客发布方式就到手了，岂不是一大爽事。</p>
+          <p>Hexo-admin<br>主角登场了，前面也有提到过，管理Hexo博客，我所知道的有几种方式。用手动管理的方式未免显得太过于原始人，即便你用本地的Markdown编辑器洋洋洒洒地写完了一篇博客，还是得屁颠屁颠地连接到服务器，然后将文件上传到博客服务器，再然后谄媚地告诉服务器，乖，帮我执行一下hexo g，命令执行完，静态页面生成后一篇博客才叫告一段落。<br>也许你不嫌麻烦，觉得这样也挺好的，没那么多屁事儿折腾，那么就坚持自己的做法也未尝不可。<br>但是，如果你跟我一样嫌(tai)麻(lan)烦(le)的话，那么利用Hexo-admin插件，加上自己部分diy，也许一个自己比较满意的Hexo博客发布方式就到手了，岂不是一大爽事。</p>
 <p>就是这个feel~倍儿爽</p>
 <p>反正我就是懒，不要拉我，让我懒。其实有时候这种“懒”往往能促使人进步，如果不嫌麻烦甘于重复劳动，虽然会少掉很多折腾，但也会少掉很多发现和进步。<br>好了，鸡汤喝完，该说正事儿了。<br>hexo-admin官网<br><a href="https://jaredforsyth.com/hexo-admin/" target="_blank" rel="noopener">https://jaredforsyth.com/hexo-admin/</a><br>step 1<br>安装必要环境，请参照上面</p>
 <p>作者：格子Lin<br>链接：<a href="https://www.jianshu.com/p/68e727dda16d" target="_blank" rel="noopener">https://www.jianshu.com/p/68e727dda16d</a><br>来源：简书<br>简书著作权归作者所有，任何形式的转载都请联系作者获得授权并注明出处。</p>
-
+          <!--noindex-->
           
+            <div class="post-button text-center">
+              <a class="btn" href="/2019/06/25/第一篇Hexo博客/#more" rel="contents">
+                Weiterlesen &raquo;
+              </a>
+            </div>
+          
+          <!--/noindex-->
         
       
     </div>
+
+    
+      
+
 
     
 
@@ -575,7 +592,7 @@
                 
               
 
-              <time title="Erstellt: 2019-06-25 16:41:36 / Geändert am: 16:48:08" itemprop="dateCreated datePublished" datetime="2019-06-25T16:41:36+08:00">2019-06-25</time>
+              <time title="Erstellt: 2019-06-25 16:41:00 / Geändert am: 20:28:50" itemprop="dateCreated datePublished" datetime="2019-06-25T16:41:00+08:00">2019-06-25</time>
             
 
             
@@ -616,11 +633,26 @@
       
         
           
-            
+            <p>
+              
+              
+            </p>
+          <!--noindex-->
           
+            <div class="post-button text-center">
+              <a class="btn" href="/2019/06/25/diyipian/#more" rel="contents">
+                Weiterlesen &raquo;
+              </a>
+            </div>
+          
+          <!--/noindex-->
         
       
     </div>
+
+    
+      
+
 
     
 
@@ -754,24 +786,26 @@
       
         
           
-            <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-
+            <p>
+              Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in 
+              ...
+            </p>
+          <!--noindex-->
           
+            <div class="post-button text-center">
+              <a class="btn" href="/2019/06/25/hello-world/#more" rel="contents">
+                Weiterlesen &raquo;
+              </a>
+            </div>
+          
+          <!--/noindex-->
         
       
     </div>
+
+    
+      
+
 
     
 
@@ -889,6 +923,46 @@
           
 
           
+            <div class="links-of-author motion-element">
+              
+                <span class="links-of-author-item">
+                  
+                  
+                  
+                    
+                  
+                  <a href="https://github.com/yourname" title="GitHub &rarr; https://github.com/yourname" rel="noopener" target="_blank"><i class="fa fa-fw fa-github"></i></a>
+                </span>
+              
+                <span class="links-of-author-item">
+                  
+                  
+                  
+                    
+                  
+                  <a href="mailto:yourname@gmail.com" title="E-Mail &rarr; mailto:yourname@gmail.com" rel="noopener" target="_blank"><i class="fa fa-fw fa-envelope"></i></a>
+                </span>
+              
+                <span class="links-of-author-item">
+                  
+                  
+                  
+                    
+                  
+                  <a href="https://weibo.com/yourname" title="Weibo &rarr; https://weibo.com/yourname" rel="noopener" target="_blank"><i class="fa fa-fw fa-weibo"></i></a>
+                </span>
+              
+                <span class="links-of-author-item">
+                  
+                  
+                  
+                    
+                  
+                  <a href="https://plus.google.com/yourname" title="Google &rarr; https://plus.google.com/yourname" rel="noopener" target="_blank"><i class="fa fa-fw fa-google"></i></a>
+                </span>
+              
+            </div>
+          
 
           
              <div class="cc-license motion-element" itemprop="license">
@@ -903,6 +977,20 @@
           
 
           
+          
+            <div class="links-of-blogroll motion-element links-of-blogroll-block">
+              <div class="links-of-blogroll-title">
+                <i class="fa  fa-fw fa-link"></i>
+                Links
+              </div>
+              <ul class="links-of-blogroll-list">
+                
+                  <li class="links-of-blogroll-item">
+                    <a href="https://me.csdn.net/qq_40962416" title="https://me.csdn.net/qq_40962416" rel="noopener" target="_blank">CSDN</a>
+                  </li>
+                
+              </ul>
+            </div>
           
 
           
@@ -948,7 +1036,7 @@
 
 
 
-  <div class="theme-info">Design – <a href="https://theme-next.org" class="theme-link" rel="noopener" target="_blank">NexT.Pisces</a> v7.1.2</div>
+  <div class="theme-info">Design – <a href="https://theme-next.org" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> v7.1.2</div>
 
 
 
@@ -966,11 +1054,6 @@
       </div>
     </footer>
 
-    
-      <div class="back-to-top">
-        <i class="fa fa-arrow-up"></i>
-        
-      </div>
     
 
     
@@ -1042,6 +1125,7 @@
 
 
 
+
   
 
   
@@ -1051,6 +1135,9 @@
 
 
   
+  <script src="/js/js.cookie.js?v=7.1.2"></script>
+  <script src="/js/scroll-cookie.js?v=7.1.2"></script>
+
 
   
 
@@ -1396,16 +1483,6 @@
   
 
   
-  <script>
-    (function(){
-      var bp = document.createElement('script');
-      var curProtocol = window.location.protocol.split(':')[0];
-      bp.src = (curProtocol === 'https') ? 'https://zz.bdstatic.com/linksubmit/push.js' : 'http://push.zhanzhang.baidu.com/push.js';
-      var s = document.getElementsByTagName("script")[0];
-      s.parentNode.insertBefore(bp, s);
-    })();
-  </script>
-
 
   
 
