@@ -1854,7 +1854,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #94396b;
+  background: #b1edff;
 }
 .feed-link,
 .chat {
@@ -3054,8 +3054,7 @@ body {
   background-position: 50% 50%;
 }
 .main-inner {
-  background: #fff;
-  opacity: 0.8;
+  background: write;
 }
 .header-inner {
   opacity: 0.8;
