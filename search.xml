@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title></title>
+    <url>%2F2019%2F06%2F25%2Fnew_file%2F</url>
+    <content type="text"></content>
+  </entry>
+  <entry>
     <title><![CDATA[第一篇Hexo博客]]></title>
     <url>%2F2019%2F06%2F25%2F%E7%AC%AC%E4%B8%80%E7%AF%87Hexo%E5%8D%9A%E5%AE%A2%2F</url>
     <content type="text"><![CDATA[Hexo-admin主角登场了，前面也有提到过，管理Hexo博客，我所知道的有几种方式。用手动管理的方式未免显得太过于原始人，即便你用本地的Markdown编辑器洋洋洒洒地写完了一篇博客，还是得屁颠屁颠地连接到服务器，然后将文件上传到博客服务器，再然后谄媚地告诉服务器，乖，帮我执行一下hexo g，命令执行完，静态页面生成后一篇博客才叫告一段落。也许你不嫌麻烦，觉得这样也挺好的，没那么多屁事儿折腾，那么就坚持自己的做法也未尝不可。但是，如果你跟我一样嫌(tai)麻(lan)烦(le)的话，那么利用Hexo-admin插件，加上自己部分diy，也许一个自己比较满意的Hexo博客发布方式就到手了，岂不是一大爽事。 就是这个feel~倍儿爽 反正我就是懒，不要拉我，让我懒。其实有时候这种“懒”往往能促使人进步，如果不嫌麻烦甘于重复劳动，虽然会少掉很多折腾，但也会少掉很多发现和进步。好了，鸡汤喝完，该说正事儿了。hexo-admin官网https://jaredforsyth.com/hexo-admin/step 1安装必要环境，请参照上面 作者：格子Lin链接：https://www.jianshu.com/p/68e727dda16d来源：简书简书著作权归作者所有，任何形式的转载都请联系作者获得授权并注明出处。]]></content>
